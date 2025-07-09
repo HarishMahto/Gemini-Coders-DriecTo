@@ -1,0 +1,24 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    },
+    "traffic_junctions": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "traffic_history": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "test": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

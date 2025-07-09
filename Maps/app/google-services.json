@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "790059371865",
+    "firebase_url": "https://driecto-default-rtdb.firebaseio.com",
+    "project_id": "driecto",
+    "storage_bucket": "driecto.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790059371865:android:00ca4911062ceaefb39048",
+        "android_client_info": {
+          "package_name": "harish.project.maps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSgk2Cyo6sK_SEgcsg3KizD667dnPVaFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

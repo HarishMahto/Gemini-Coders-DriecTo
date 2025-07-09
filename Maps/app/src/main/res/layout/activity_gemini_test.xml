@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gemini API Test"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="12dp">
+
+        <Button
+            android:id="@+id/testButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Test API"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/testModelsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="Test Models"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkApiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔑 Check API Key and Models"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click the button above to test the Gemini API connection."
+            android:textSize="14sp"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:scrollbars="vertical" />
+
+    </ScrollView>
+
+</LinearLayout> 
